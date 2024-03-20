@@ -21,8 +21,8 @@ export default function Header() {
             <div className="line"></div>
             <li className="header-li">MEET THE TEAM</li>
             <div className="line"></div>
-            <li className="header-li">ABOUT US</li>
-            <div className="line"></div>
+            {/* <li className="header-li">ABOUT US</li>
+            <div className="line"></div> */}
             <li className="header-li">SPONSORS</li>
             <div className="line"></div>
             <li className="header-li">GET INVOLVED</li>
@@ -32,7 +32,7 @@ export default function Header() {
     const desktopMenu = (
         <ul className="desktop-header-ul">
             <li className="desktop-header-li">MEET THE TEAM</li>
-            <li className="desktop-header-li">ABOUT US</li>
+            {/* <li className="desktop-header-li">ABOUT US</li> */}
             <li className="desktop-header-li">SPONSORS</li>
             <li className="desktop-header-li">GET INVOLVED</li>
         </ul>
