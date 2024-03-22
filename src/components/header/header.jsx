@@ -26,12 +26,12 @@ export default function Header() {
             {/* <div className="line"></div> */}
             <Link to="/sponsors"><li className="header-li">SPONSORS</li></Link>
             <div className="line"></div>
-            <Link to="/get_involved"><li className="header-li">GET INVOLVED</li></Link>
         </ul>
     );
 
     const desktopMenu = (
         <ul className="desktop-header-ul">
+get_involved
             <Link to="/meet_the_team" className="link"><li className="desktop-header-li">MEET THE TEAM</li></Link>
             {/* <Link to="/history" className="link"><li className="desktop-header-li">ABOUT US</li></Link> */}
             <Link to="/sponsors" className="link"><li className="desktop-header-li">SPONSORS</li></Link>

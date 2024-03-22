@@ -1,5 +1,6 @@
 import Home from "./pages/home/home";
 import GetInvolved from "./pages/get_involved/GetInvolved"
+import Sponsors from "./pages/sponsors/sponsors";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route path="/history" />
           <Route path="/sponsors" />
           <Route path="/get_involved" element={<GetInvolved />} />
+          <Route path="/sponsors" element={<Sponsors/>} />
         </Routes>
       </Router>
   )
